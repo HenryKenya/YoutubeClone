@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         recylerView_main.layoutManager = LinearLayoutManager(this)
-        // calling fetchData function
         fetchData()
     }
 
